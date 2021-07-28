@@ -20,6 +20,6 @@ function GCD(m,n)
        c=[c,f];
      endif
    endfor
-   
+   % that is final GCDgit 
    GCD = max(c)
 endfunction
