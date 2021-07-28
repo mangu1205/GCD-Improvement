@@ -1,4 +1,4 @@
-%this is ismple code for finding of GCD
+%this is simple code for finding of GCD
 function GCD(m,n) 
  %we listed all the factor of m
  listm=[];
