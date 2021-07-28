@@ -1,3 +1,4 @@
+%this is ismple code for finding of GCD
 function GCD(m,n) 
  %we listed all the factor of m
  listm=[];
@@ -5,10 +6,9 @@ function GCD(m,n)
      if m/i - floor(m/i)==0
      listm=[listm,i];
      endif
-     
    endfor
    listn=[];
- %\we listed all the factor of n
+ % we listed all the factor of n
     for j=1:n
      if n/j - floor(n/j)==0
      listn=[listn,j]; 
@@ -20,6 +20,6 @@ function GCD(m,n)
        c=[c,f];
      endif
    endfor
-   % that is final GCDgit 
+   % that is final GCD 
    GCD = max(c)
 endfunction
